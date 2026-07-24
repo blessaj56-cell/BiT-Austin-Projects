@@ -1,0 +1,131 @@
+<style>
+
+    .sun {
+       background-color: red;
+       height: 35px;
+       width: 105px;
+       border: none;
+       border-radius: 10px;
+       cursor: pointer;
+       transition:opacity 2s;
+
+    }
+
+    .sun:hover {
+        opacity: 0.6;
+    }
+
+    .sun:active {
+        opacity:0.4 ;
+    }
+
+   
+
+    .sun {
+       background-color: red;
+       height: 35px;
+       width: 105px;
+       color: white;
+       border: none;
+       border-radius: 10px;
+       cursor: pointer;
+       transition:opacity 2s;
+    }
+
+    .sun:hover {
+        opacity: 0.6;
+    }
+
+    .sun:active {
+        opacity: 0.4;
+    }
+
+
+
+    .moon {
+        background-color: white;
+        height: 35px;
+        width: 75px;
+        color: #00ced1;
+        border-width: 1px;
+        border-color: #00ced1;
+        border-radius: 10px;
+        border-style: solid;
+        cursor: pointer;
+        transition:background-color 2s,color 2s;
+    }
+
+    .moon:hover { 
+        opacity: 0.8;
+        background-color: #00ced1;
+        color: white;
+    }
+
+    .moon:active {
+        opacity: 0.4;
+    }
+
+   
+
+    .star{
+        background-color: #00ced1;
+        height: 35px;
+        width: 75px;
+        color: white;
+        border-color: #00ced1;
+        border-radius: 18px;
+        border-style: solid;
+        cursor: pointer;
+        transition: 2s;
+    }
+
+    .star:hover {
+         box-shadow: 5px 5px 10px rgba( 4,26,39,0.15 )
+    }
+
+    .star:active {
+        opacity:5;
+    }
+    
+
+    .red{
+        background-color: rgb(127,136,255);
+        color: white;
+        width: 105px;
+        border-radius: 10px;
+        border: none;
+        height: 35px; 
+        cursor: pointer;
+    }
+
+    .red:hover{
+        opacity: 0.6;
+    }
+
+    .red:active {
+        opacity: 0.4;
+    }
+
+    .gold {
+        background-color: white;
+        color: rgb(127,136,255);
+        width: 105px;
+        border-radius: 10px;
+        border-color: rgb(127,136,255);
+        border-width: 2px;
+        border-style: solid;
+        height: 35px;
+        cursor: pointer;
+    }
+
+    .gold:hover {
+        opacity: 0.8;
+        background-color: rgb(127,136,255);
+        color: white;
+    }
+
+    .gold:active {
+        opacity: 0.5;
+    }
+
+</style>

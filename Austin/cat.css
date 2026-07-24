@@ -1,0 +1,38 @@
+.cat{
+    background-color: red;
+    height: 45px;
+    width: 205px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.cat:hover{
+    opacity: 0.8;
+}
+
+.cat:active{
+    opacity: 0.5;
+}
+
+.heading{
+    color: #00ced1;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+}
+
+.line{
+    font-family: 'Segoe UI';
+    font-size: 17px;
+    color: gray;
+}
+.cat{
+    background-color: red;
+    height: 45px;
+    width: 205px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;

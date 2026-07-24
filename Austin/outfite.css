@@ -1,0 +1,51 @@
+<style>
+
+.hea {
+    color: purple;
+    padding: 10px 10px;
+}
+
+.hea {
+    color: purple;
+    padding: 10px 10px;
+}
+
+.vid{
+    color:white;
+    margin:50px;
+    background-color:purple;
+    height:35px;
+    width:105px;
+    border-width:1px;
+    border-color:purple;
+    border-radius:10px;
+    border-style:solid;
+    cursor:pointer;
+}
+
+.vid:hover{
+    opacity:0.8;
+}
+
+.vid:active{
+    opacity:0.4;
+}
+
+.thumb{
+    display:block;
+    height:300px;
+    width:400px;
+}
+.rose{
+    color:#565555;
+}
+
+.div{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+}
+  
+</style>
